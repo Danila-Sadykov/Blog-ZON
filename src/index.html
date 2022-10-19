@@ -1,0 +1,177 @@
+---
+layout: default
+title: Home
+---
+<!-- STORIES -->
+<div class="stories" data-modal="story-modal">
+    <div class="stories__item">
+        <img class="stories__img" src="/assets/images/stories/стрижка.jpg" alt="">
+        <div class="stories__title">Стрижка Артура</div>
+        <time class="stories__date" datetime="2022-09-24">24.09.2022</time>
+    </div>
+    <div class="stories__item">
+        <img class="stories__img" src="/assets/images/stories/колонка.jpg" alt="">
+        <div class="stories__title">Колонка как новая</div>
+        <time class="stories__date" datetime="2022-07-23">23.07.2022</time>
+    </div>
+    <div class="stories__item">
+        <img class="stories__img" src="/assets/images/stories/отдых.jpg" alt="">
+        <div class="stories__title">Отдыхаем на природе</div>
+        <time class="stories__date" datetime="2022-08-14">14.08.2022</time>
+    </div>
+    <div class="stories__item">
+        <img class="stories__img" src="/assets/images/stories/камаз.jpg" alt="">
+        <div class="stories__title">Закрыли камаз навсегда</div>
+        <time class="stories__date" datetime="2021-02-16">16.02.2021</time>
+    </div>
+</div>
+
+
+
+<!-- POST -->
+<div class="add-post">
+    <form class="add-post__form" action="/" method="post">
+        <textarea class="add-post__textarea" name="post-text" placeholder="Напишите что-нибудь"
+        data-autoresize></textarea>
+           <div class="add-post__form-actions">
+               <label class="add-post__file" for="add-post-file">
+                   <input type="file" id="add-post-file">
+               </label>
+              <button class="add-post__send" type="submit">
+                Отправить
+              </button>
+           </div>
+    </form>
+</div>
+
+
+
+<!-- POST -->
+
+<!-- <div class="post">
+    <div class="post__content">
+        <p class="post__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+        </p>
+    </div>
+    <div class="post__footer">
+        <ul class="post__data">
+            <li class="post__data-item">
+                <time datetime="2022-09-28">28.09.2022</time>
+            </li>
+        </ul>
+    </div>
+</div> -->
+
+<article class="post">
+    <div class="post__header  post__header--preview">
+        <a href="/post.html">
+        <img class="post__preview" src="/assets/images/dr.jpg" alt="">
+        </a>
+    </div>
+    <div class="post__content">
+        <h2 class="post__title">
+            <a href="/post.html">День рождения Артура!!!</a>
+        </h2>
+        <p class="post__text">
+        Сегодня день рождение у нашего друга Артура Бенкендворфа, поздравляем его сегодня всем цоном и желаем счастья, здоровья, успехов.
+        </p>
+    </div>
+    <div class="post__footer">
+        <ul class="post__data">
+            <li class="post__data-item">
+                <time datetime="2022-09-29">29.09.2022</time>
+            </li>
+            <li class="post__data-item">
+                <a href="#">срочные новости</a>
+            </li>
+        </ul>
+
+        <a class="post__read" href="/post.html">Читать</a>
+    </div>
+</article>
+
+
+
+<article class="post">
+    <div class="post__header ">
+        <div class="embed">
+        <iframe class="post__video" src="https://www.youtube.com/embed/-E-sUhM7OSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <div class="post__content">
+        <h2 class="post__title">
+            <a href="#">Произошло крещение</a>
+        </h2>
+    </div>
+    <div class="post__footer">
+        <ul class="post__data">
+            <li class="post__data-item">
+                <time datetime="2022-09-26">ебать как давно</time>
+            </li>
+            <li class="post__data-item">
+                <a href="#">Видео</a>
+            </li>
+        </ul>
+
+        <a class="post__read" href="#">Оставить комментарий</a>
+    </div>
+</article>
+
+<article class="post">
+    <div class="post__header  post__header--preview">
+        <a href="/post2.html">
+        <img class="post__preview" src="/assets/images/povestka.jpg" alt="">
+        </a>
+    </div>
+    <div class="post__content">
+        <h2 class="post__title">
+            <a href="/post2.html">Глеба забирают в армию</a>
+        </h2>
+        <p class="post__text">
+        Сегодня пришла повестка о призыве на воинскую службу нашему другу Бакшееву Глебу Григорьевичу, в данный момент друг находится в состоянии шока и не знает что ему с этим делать.Держим вас в курсе всех новых событий в нашем блоге про жизнь цона.
+        </p>
+    </div>
+    <div class="post__footer">
+        <ul class="post__data">
+            <li class="post__data-item">
+                <time datetime="2022-09-26">26.09.2022</time>
+            </li>
+            <li class="post__data-item">
+                <a href="#">срочные новости</a>
+            </li>
+        </ul>
+
+        <a class="post__read" href="/post2.html">Читать</a>
+    </div>
+</article>
+
+<!-- NAV -->
+
+<ul class="pogination">
+    <li class="pogination__item">
+        <a class="pogination__link" href="#">
+            &lt;
+        </a>
+    </li>
+    <li class="pogination__item">
+        <a class="pogination__link" href="#">
+            1
+        </a>
+    </li>
+    <li class="pogination__item">
+        <a class="pogination__link" href="#">
+            2
+        </a>
+    </li>
+    <li class="pogination__item">
+        <a class="pogination__link" href="#">
+            3
+        </a>
+    </li>
+    <li class="pogination__item">
+        <a class="pogination__link" href="#">
+            &gt;
+        </a>
+    </li>
+</ul>

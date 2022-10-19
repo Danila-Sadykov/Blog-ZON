@@ -1,0 +1,44 @@
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+
+    background-color: $primary;
+    border-radius: 5px;
+    padding: 20px 35px;
+    margin: 0 auto;
+
+    @include breakpoint ($tablet-bp){
+        .gallery__img{
+            width: 160px;
+            height: auto;
+            padding: 5px;
+        
+            border-radius: 5px;
+        }
+    }
+
+    @include breakpoint ($mobile-bp){
+
+        .gallery__img{
+            width: 120px;
+            height: auto;
+            padding: 5px;
+        
+            border-radius: 10px;
+        }
+    }
+
+    @include breakpoint ($mobile-bp){
+      padding: 1rem;
+    }
+}
+
+.gallery__img{
+    width: 250px;
+    height: auto;
+    padding: 5px;
+
+    border-radius: 10px;
+}

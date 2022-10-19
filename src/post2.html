@@ -1,0 +1,104 @@
+---
+layout: default
+title: Post
+---
+
+<article class="post">
+    <div class="post__actions">
+        <a href="/index.html">вернуться назад</a>
+        <a href="#">поделиться<img class="post__actions--icon" src="/assets/images/Group.svg" alt="">
+        </a>
+    </div>
+
+    <div class="post__header  post__header--open">
+        <img class="post__preview" src="/assets/images/povestka.jpg" alt="">
+        <h1 class="post__title  post__title--mb0">
+            Глеба забирают в армию
+        </h1>
+        <ul class="post__data">
+            <li class="post__data-item">
+                <time datetime="2022-09-29">29.09.2022</time>
+            </li>
+            <li class="post__data-item">
+                <a href="#">срочные новости</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="post__content">
+        <div class="post__text">
+            <p>
+                Сегодня пришла повестка о призыве на воинскую службу нашему другу Бакшееву Глебу Григорьевичу, в данный момент друг находится в состоянии шока и не знает что ему с этим делать.Держим вас в курсе всех новых событий в нашем блоге про жизнь цона...
+            </p>
+        </div>
+
+        <div class="related">
+            <h3 class="post__subtitle">Интересно почитать</h3>
+
+            <ul class="related__list">
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="/post.html">День рождения Артура!!!</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2022-09-26">29.09.2022</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="/post3.html">Посиделки в Омске</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2022-09-24">24.09.2022</time>
+                </li>
+                <li class="related__list-item">
+                    <h4 class="related__list-title">
+                        <a href="#">Саня в Ханты-Мансийске</a>
+                    </h4>
+                    <time class="related__list-date" datetime="2022-09-25">25.09.2022</time>
+                </li>
+            </ul>
+        </div>
+
+
+            <h3 class="post__subtitle">Обсуждение</h3>
+            <form class="form" action="/" method="post">
+                <div class="form__group">
+                   <textarea class="form__control  form__control--textarea" name="comment-text" placeholder="Текст комментария"
+                   data-autoresize></textarea>
+                </div>
+                   <button class="btn  btn--blue  btn--rounded  btn--sm" type="submit">Отправить</button>
+            </form>
+        <ul class="comments">
+            <li class="comments__item">
+                <div class="comments__header">
+                    <img class="comments__avatar" src="/assets/images/Данила.jpg" alt="">
+                    <div class="comments__author">
+                    <div class="comments__name">Данила Садыков</div>
+                    <time class="comments__date" datetime="2022-09-29">вчера</time>
+                    </div>
+                </div> 
+    
+                <div class="comments__text">
+                    Не понял
+                    <button class="comments__reply" type="button">Ответить</button>
+                </div>
+
+                <!-- <ul class="comments">
+                    <li class="comments__item">
+                        <div class="comments__header">
+                            <img class="comments__avatar" src="/assets/images/Данила.jpg" alt="">
+                            <div class="comments__author">
+                            <div class="comments__name">Данила Садыков</div>
+                            <time class="comments__date" datetime="2022-09-29">вчера</time>
+                            </div>
+                        </div> 
+            
+                        <div class="comments__text">
+                            Полностью согласен
+                            <button class="comments__reply" type="button">Ответить</button>
+                        </div>
+                    </li>
+                </ul> -->
+            </li>
+        </ul>
+        
+    </div>
+</article>

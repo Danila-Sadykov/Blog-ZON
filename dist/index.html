@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Home</title>
+</head>
+
+<body>
+
+ <div class="page" id="page">
+
+    <header class="header">
+        <div class="header__left">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item" >
+                        <a class="nav__link" href="/index.html">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link  has-subnav" href="#">Статьи</a>
+    
+                        <ul class="subnav">
+                            <li>
+                                <a class="subnav__link" href="/post2.html">Глеба забирают в армию</a>
+                            </li>
+                            <li>
+                                <a class="subnav__link" href="/post3.html">Посиделки в Омске</a>
+                            </li>
+                            <li>
+                                <a class="subnav__link" href="#">Саня в Ханты-Мансийске</a>
+                            </li>
+                        </ul>
+    
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/about.html">О нас</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/support.html">Поддержать</a>
+                    </li>
+                </ul>
+            </nav>
+            <button class="burger" type="button" id="sidebarToggle">
+                <span>Открыть навигацию</span>
+            </button>
+        </div>
+    
+    
+        <div class="header__right">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="/profile.html">Профиль</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Выйти</a>
+                    </li>
+                </ul>
+            </nav>
+            <form class="search" action="/search.html" method="get">
+                <input class="search__input" type="text" placeholder="Поиск по блогу">
+            </form>
+        </div>
+    </header>
+
+    <aside class="sidebar"  id="sidebar">
+        <div class="sidebar__header">
+            <img src="/assets/images/AnyConv.com__sidebar.jpg" alt="">
+        </div>
+        <div class="sidebar__content">
+            <div class="profile">
+    
+                <img class="profile__avatar" src="/assets/images/photo.jpg" alt="">
+                <div class="profile__header">
+                <div class="profile__name">ЦОН</div>
+                <div class="profile__prof">блог про цон</div>
+                </div>
+    
+               
+    
+                <ul class="social">
+                    <li class="social__item" >
+                        <a class="social__link" href="#" target="_blank">
+                            <img src="/assets/images/instagram (1) 1.svg" alt="">
+                        </a>
+                        </li>
+                     <li class="social__item" >
+                        <a class="social__link" href="#" target="_blank">
+                            <img src="/assets/images/vk 1.svg" alt="">
+                        </a>
+                     </li>
+                     <li class="social__item" >
+                        <a class="social__link" href="#" target="_blank">
+                            <img src="/assets/images/pinterest 1.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+    
+                <div class="profile__text">В этом блоге выложены самые свежие новости про парней из цона</div>
+    
+            </div>
+            
+            <nav class="nav  nav--mobile">
+                <ul class="nav__list">
+                    <li class="nav__item" >
+                        <a class="nav__link" href="/index.html">Главная</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link  has-subnav" href="#">Статьи</a>
+    
+                        <ul class="subnav">
+                            <li>
+                                <a class="subnav__link" href="#">Глеба забирают в армию</a>
+                            </li>
+                            <li>
+                                <a class="subnav__link" href="#">Посиделки в Омске</a>
+                            </li>
+                            <li>
+                                <a class="subnav__link" href="#">Саня в Ханты-Мансийске</a>
+                            </li>
+                        </ul>
+    
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/about.html">О нас</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/support.html">Поддержать</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="/profile.html">Профиль</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#">Выйти</a>
+                    </li>
+                </ul>
+            </nav>
+    
+        </div>
+        <div class="sidebar__footer">
+            <a class="btn btn--red" href="/gallery.html" >Наша Галерея</a>
+            <button class="btn btn--blue" tape="button" data-modal="contact-modal">Написать нам</button>
+        </div>
+    </aside>
+
+    <main class="main">
+        <div class="container">
+              <!-- STORIES -->
+              <div class="stories" data-modal="story-modal">
+                  <div class="stories__item">
+                      <img class="stories__img" src="/assets/images/stories/стрижка.jpg" alt="">
+                      <div class="stories__title">Стрижка Артура</div>
+                      <time class="stories__date" datetime="2022-09-24">24.09.2022</time>
+                  </div>
+                  <div class="stories__item">
+                      <img class="stories__img" src="/assets/images/stories/колонка.jpg" alt="">
+                      <div class="stories__title">Колонка как новая</div>
+                      <time class="stories__date" datetime="2022-07-23">23.07.2022</time>
+                  </div>
+                  <div class="stories__item">
+                      <img class="stories__img" src="/assets/images/stories/отдых.jpg" alt="">
+                      <div class="stories__title">Отдыхаем на природе</div>
+                      <time class="stories__date" datetime="2022-08-14">14.08.2022</time>
+                  </div>
+                  <div class="stories__item">
+                      <img class="stories__img" src="/assets/images/stories/камаз.jpg" alt="">
+                      <div class="stories__title">Закрыли камаз навсегда</div>
+                      <time class="stories__date" datetime="2021-02-16">16.02.2021</time>
+                  </div>
+              </div>
+              
+              
+              
+              <!-- POST -->
+              <div class="add-post">
+                  <form class="add-post__form" action="/" method="post">
+                      <textarea class="add-post__textarea" name="post-text" placeholder="Напишите что-нибудь"
+                      data-autoresize></textarea>
+                         <div class="add-post__form-actions">
+                             <label class="add-post__file" for="add-post-file">
+                                 <input type="file" id="add-post-file">
+                             </label>
+                            <button class="add-post__send" type="submit">
+                              Отправить
+                            </button>
+                         </div>
+                  </form>
+              </div>
+              
+              
+              
+              <!-- POST -->
+              
+              <!-- <div class="post">
+                  <div class="post__content">
+                      <p class="post__text">
+                          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum volutpat orci turpis urna. Et vestibulum, posuere tortor lacinia sit. Sagittis porttitor orci auctor in at tincidunt arcu egestas. Fusce arcu sodales lacinia eu auctor nunc nam id. Diam sit sed volutpat massa. Egestas ornare vel volutpat.
+                      </p>
+                  </div>
+                  <div class="post__footer">
+                      <ul class="post__data">
+                          <li class="post__data-item">
+                              <time datetime="2022-09-28">28.09.2022</time>
+                          </li>
+                      </ul>
+                  </div>
+              </div> -->
+              
+              <article class="post">
+                  <div class="post__header  post__header--preview">
+                      <a href="/post.html">
+                      <img class="post__preview" src="/assets/images/dr.jpg" alt="">
+                      </a>
+                  </div>
+                  <div class="post__content">
+                      <h2 class="post__title">
+                          <a href="/post.html">День рождения Артура!!!</a>
+                      </h2>
+                      <p class="post__text">
+                      Сегодня день рождение у нашего друга Артура Бенкендворфа, поздравляем его сегодня всем цоном и желаем счастья, здоровья, успехов.
+                      </p>
+                  </div>
+                  <div class="post__footer">
+                      <ul class="post__data">
+                          <li class="post__data-item">
+                              <time datetime="2022-09-29">29.09.2022</time>
+                          </li>
+                          <li class="post__data-item">
+                              <a href="#">срочные новости</a>
+                          </li>
+                      </ul>
+              
+                      <a class="post__read" href="/post.html">Читать</a>
+                  </div>
+              </article>
+              
+              
+              
+              <article class="post">
+                  <div class="post__header ">
+                      <div class="embed">
+                      <iframe class="post__video" src="https://www.youtube.com/embed/-E-sUhM7OSI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                      </div>
+                  </div>
+                  <div class="post__content">
+                      <h2 class="post__title">
+                          <a href="#">Произошло крещение</a>
+                      </h2>
+                  </div>
+                  <div class="post__footer">
+                      <ul class="post__data">
+                          <li class="post__data-item">
+                              <time datetime="2022-09-26">ебать как давно</time>
+                          </li>
+                          <li class="post__data-item">
+                              <a href="#">Видео</a>
+                          </li>
+                      </ul>
+              
+                      <a class="post__read" href="#">Оставить комментарий</a>
+                  </div>
+              </article>
+              
+              <article class="post">
+                  <div class="post__header  post__header--preview">
+                      <a href="/post2.html">
+                      <img class="post__preview" src="/assets/images/povestka.jpg" alt="">
+                      </a>
+                  </div>
+                  <div class="post__content">
+                      <h2 class="post__title">
+                          <a href="/post2.html">Глеба забирают в армию</a>
+                      </h2>
+                      <p class="post__text">
+                      Сегодня пришла повестка о призыве на воинскую службу нашему другу Бакшееву Глебу Григорьевичу, в данный момент друг находится в состоянии шока и не знает что ему с этим делать.Держим вас в курсе всех новых событий в нашем блоге про жизнь цона.
+                      </p>
+                  </div>
+                  <div class="post__footer">
+                      <ul class="post__data">
+                          <li class="post__data-item">
+                              <time datetime="2022-09-26">26.09.2022</time>
+                          </li>
+                          <li class="post__data-item">
+                              <a href="#">срочные новости</a>
+                          </li>
+                      </ul>
+              
+                      <a class="post__read" href="/post2.html">Читать</a>
+                  </div>
+              </article>
+              
+              <!-- NAV -->
+              
+              <ul class="pogination">
+                  <li class="pogination__item">
+                      <a class="pogination__link" href="#">
+                          &lt;
+                      </a>
+                  </li>
+                  <li class="pogination__item">
+                      <a class="pogination__link" href="#">
+                          1
+                      </a>
+                  </li>
+                  <li class="pogination__item">
+                      <a class="pogination__link" href="#">
+                          2
+                      </a>
+                  </li>
+                  <li class="pogination__item">
+                      <a class="pogination__link" href="#">
+                          3
+                      </a>
+                  </li>
+                  <li class="pogination__item">
+                      <a class="pogination__link" href="#">
+                          &gt;
+                      </a>
+                  </li>
+              </ul>
+        </div>
+    </main>
+
+</div>
+
+<div class="modal" id="story-modal">
+    <div class="modal__content  modal__content--story">
+    <video class="modal__video" src="/assets/images/story/VID_20220928_133053_345.mp4.mov" poster="/assets/images/stories/отдых.jpg" id="video-player"></video>
+    </div>
+    <div><button id="play">play</button></div>
+</div><div class="modal" id="contact-modal">
+    <div class="modal__content  modal__content--contact">
+        <form action="/" class="form">
+
+                <div class="form__group form__group--mb">
+                     <input type="text" class="form__control" placeholder="Ваше имя">
+                </div>
+        
+                <div class="form__group form__group--mb">
+                    <input type="email" class="form__control" placeholder="Введите e-mail"> 
+                </div>
+        
+                <div class="form__group form__group--mb">
+                    <textarea class="form__control  form__control--textarea" placeholder="Текст сообщения"></textarea>
+                </div>
+
+                <div class="form__footer ">
+                <div class="form__group form__group--mb">
+                <button class="btn btn--blue btn--rounded btn--sm" type="submit">Отправить</button>
+                </div>
+                </div>
+
+        </form> 
+
+        <ul class="modal__footer">
+            <li>
+            e-mail:
+            <a href="mailto:danila.03.03@mail.ru"> danila.03.03@mail.ru</a>
+            </li>
+            <li>
+            тел:
+            <a href="tel:+79503399672"> +7(950)3399672</a>
+            </li>
+        </ul>
+
+        <button class="modal__close" type="button">
+            <img src="/assets/images/cancel.svg" alt="">
+        </button>
+
+    </div>
+</div><div class="modal">
+    <div class="modal__content">
+
+        <button class="modal__close" type="button">
+            <img src="/assets/images/cancel.svg" alt="">
+        </button>
+
+        <ul class="social">
+            <li class="social__item" >
+                <a class="social__link" href="#">
+                    <img src="/assets/images/share/facebook (3) 1.svg" alt="">
+                </a>
+                </li>
+             <li class="social__item" >
+                <a class="social__link" href="#">
+                    <img src="/assets/images/share/vk 2.svg" alt="">
+                </a>
+             </li>
+             <li class="social__item" >
+                <a class="social__link" href="#">
+                    <img src="/assets/images/share/twitter (1) 1.svg" alt="">
+                </a>
+            </li>
+            <li class="social__item" >
+                <a class="social__link" href="#">
+                    <img src="/assets/images/share/copy 1.svg" alt="">
+                </a>
+            </li>
+        </ul>
+
+    </div>
+</div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

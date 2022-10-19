@@ -1,0 +1,101 @@
+.modal{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: $z-index-modal;
+
+    background-color: rgba($black, 0.8);
+
+    height: 100%;
+    width: 100%;
+
+    &.show{
+        display: flex;
+    }
+}
+
+.modal__content{
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    padding: 8rem;
+    background-color: $primary;
+    border-radius: 5px;
+
+    transform: translateY(-50px);
+    transition: transform 200ms ease-in-out;
+
+    @include breakpoint ($tablet-bp){
+        padding: 5rem 1rem 1rem 1rem;
+    }
+
+    &--contact{
+        padding-bottom: 2.5rem;
+    }
+
+    &--story{
+        padding: 0;
+        background: none;
+
+    }
+}
+
+.modal__close{
+    padding: 0;
+    background: none;
+    border: none;
+    cursor: pointer;
+    opacity: 0.5;
+
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+
+    transition: transform 0.4s linear,
+    opacity 0.2s linear;
+
+    &:hover{
+        transform: rotate(90deg);
+        opacity: 1;
+    }
+
+}
+
+.modal__footer{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    margin-top: 4rem;
+
+    color: #b2b2b2;
+
+    li{
+        margin: 0 0.5rem;
+    }
+
+    a{
+        color: inherit;
+        text-decoration: underline;
+        
+        &:hover{
+            text-decoration: none;
+        }
+    }
+
+    @include breakpoint ($tablet-bp){
+        margin-top: 2rem;
+    }
+}
+
+.modal__video{
+    display: block;
+    width: 420px;
+    height: 580px;
+    margin: 0 auto;
+}

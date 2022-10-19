@@ -1,0 +1,21 @@
+.support{
+    display: grid;
+    text-align: center;
+    max-width: 280px;
+    margin: 0 auto;
+}
+
+.support__title{
+    font-size: 2.1rem;
+}
+
+.support__subtitle{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.support__img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+}
